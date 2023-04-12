@@ -1,0 +1,184 @@
+/*HEADER*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 3px solid #32b9cd;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    color: #ADD8E6;
+    font-weight: 500;
+    height: 30px;
+    width: 5px;
+}
+
+.navbar {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    position: relative;
+    height: auto;
+
+}
+
+.img {
+    width: 45px;
+    align-items: left;
+}
+
+.navbar a, .navbar li {
+    color: #ADD8E6;
+    text-decoration: none;
+}
+
+/*BANNER*/
+
+.banner {
+    background-image: url('../img/quemsomos_frigocopa_frigorifico_carnes2-1\ 1.png');
+    background-size: cover;
+    border-bottom: 500px solid #ADD8E6;
+}
+
+.banner .container {
+    height: 500px;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.banner p {
+    width: 280px;
+    font-size: 25px;
+    color: white;
+}
+
+.banner .container2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner button  {
+    float: none;
+    display: inline-block;
+    background-color: #C23A0D;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 2px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+/*fundo azul*/
+
+.fundo {
+    background-color: #ADD8E6;
+}
+
+/* Missão. visão e valores */
+
+.social {
+    background-color: #C23A0D;
+}
+
+.social .container{
+    height: 500px;
+}
+
+.social h2 {
+    align-items: center;
+    justify-content: center;
+    right: 50px;
+}
+
+.boxes {
+    display: flex;
+    padding: 5px 0;
+    gap: 16px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img {
+    width: 250px;
+}
+
+.box h4 {
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 13px
+}
+
+/*historia*/
+
+.historia {
+    background-color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.historia .container2 {
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.historia h2 {
+    align-items: center;
+    justify-content: center;
+    right: 50px;
+}
+
+.boxes2 {
+    display: flex;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.historia img {
+    width: 500px;
+    align-items: flex-end;
+}
+
+.box2 h4 {
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 13px
+}
+
+.footer {
+    
+}
